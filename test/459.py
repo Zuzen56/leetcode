@@ -14,6 +14,7 @@ def function(s):
 def func(s):
     print(s.find(s,1),len(s))
     print((s+s).find(s,1))
+    print(help(s.find(s,1)))
     return (s + s).find(s, 1) != len(s)
 
 
